@@ -1,0 +1,28 @@
+@media all and (max-width: 63.75em) {
+  html {
+    font-size: 52%;
+  }
+
+  /* Seção Porque escolher */
+  .container-porqueescolher {
+    & .secao-caixas {
+      & .container-caixas {
+        display: flex;
+        flex-direction: column;
+
+        & .caixa-1,
+        .caixa-2,
+        .caixa-3 {
+          width: 70rem;
+          height: fit-content;
+        }
+      }
+    }
+  }
+  /* Botão */
+  .botao {
+    & a {
+      font-size: 3rem;
+    }
+  }
+}

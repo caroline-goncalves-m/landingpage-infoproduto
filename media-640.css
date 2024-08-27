@@ -1,0 +1,49 @@
+@media all and (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+
+  h3 {
+    text-align: center;
+    align-self: center;
+  }
+
+  .secao-chave {
+    display: flex;
+    flex-direction: column;
+
+    & .img-chave {
+      width: 45vw;
+    }
+
+    & .paragrafo-botao {
+      display: flex;
+      flex-direction: column;
+
+      & button {
+        width: fit-content;
+        align-self: center;
+      }
+    }
+  }
+
+  .container-porqueescolher {
+    & .secao-caixas {
+      width: 40rem;
+
+      & .container-caixas {
+        & .caixa-1,
+        .caixa-2,
+        .caixa-3 {
+          width: fit-content;
+        }
+      }
+    }
+  }
+
+  .container-bonus {
+    .img-bonus-valor {
+      padding-top: 4.5rem;
+    }
+  }
+}

@@ -1,0 +1,143 @@
+/* Cabeçalho */
+header {
+  display: flex;
+  flex-flow: column;
+  padding: 0 0 4rem 0;
+  gap: 3rem;
+
+  & div {
+    padding: 0;
+    height: 7rem;
+    background-color: #ffeab6;
+  }
+
+  & h3 {
+    padding-top: 1rem;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+/* Seção 1 */
+.secao-chave {
+  display: flex;
+  padding: 5rem 8rem;
+  gap: 3rem;
+  align-items: center;
+  font-size: 2.1rem;
+  line-height: 1.3;
+
+  & p {
+    text-align: justify;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Seção O que vai levar */
+.container-oquelevar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 3rem 7rem;
+  gap: 2rem;
+
+  & h2 {
+    font-size: 3.1rem;
+    font-weight: 600;
+  }
+
+  & h3 {
+    text-align: center;
+  }
+
+  & p {
+    text-align: center;
+  }
+}
+
+/* Seção Porque escolher */
+.container-porqueescolher {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  & .secao-caixas {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgba(255, 166, 1, 0.815);
+
+    & h3 {
+      display: flex;
+      justify-content: center;
+    }
+
+    & .container-caixas {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      gap: 1rem;
+
+      & .caixa-1,
+      .caixa-2,
+      .caixa-3 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: white;
+        color: black;
+        box-shadow: inset 0 0.21rem 0.8rem rgba(0, 0, 0, 0.349);
+        border-radius: 2rem;
+        width: 33%;
+        height: 22rem;
+        padding: 1rem;
+        gap: 1rem;
+
+        & p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/* Seção Bônus */
+.container-bonus {
+  padding: 4rem 5rem;
+
+  & p {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  & .img-bonus-valor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Rodapé */
+footer {
+  padding: 3rem 3rem 4rem 3rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ffeab6;
+
+  & p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  & .rodape-copyright {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+}
